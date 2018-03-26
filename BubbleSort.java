@@ -1,4 +1,5 @@
 public class BubbleSort () {
+
     /*  in-place
      *  stable
      * Have a worst case running time of:
@@ -12,6 +13,7 @@ public class BubbleSort () {
      * @param <T> data type to sort
      * @param arr the array that must be sorted after the method runs
      * @param comparator the Comparator used to compare the data in arr
+     * @author Bang Pham
      */
     public static <T> void bubbleSort(T[] arr, Comparator<T> comparator) {
         if (arr == null || comparator == null) {
